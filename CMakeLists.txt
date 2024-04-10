@@ -6,6 +6,7 @@ HOMEPAGE_URL "https://github.com/chengkangpeng/cmake_planning_demo2"
 LANGUAGES CXX
 )
 set(CMAKE_CXX_STANDARD 17)
+enable_testing()
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 set(PROCESS_DIR ${CMAKE_SOURCE_DIR}/src/process)
@@ -21,3 +22,4 @@ CMAKE_MODULE_PATH
 find_package(Eigen3 3.4 REQUIRED)
 
 add_subdirectory(src)
+add_subdirectory(test/map_test)

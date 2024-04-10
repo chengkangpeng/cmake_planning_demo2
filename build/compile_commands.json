@@ -18,5 +18,10 @@
   "directory": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/build/src/show_result",
   "command": "C:\\Users\\CKP\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE -Dshow_result_EXPORTS  -g -std=gnu++17 -o CMakeFiles\\show_result.dir\\show_result.cpp.obj -c D:\\LearnCpp\\Dev\\CMakeProject\\cmake_planning_demo2\\src\\show_result\\show_result.cpp",
   "file": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/src/show_result/show_result.cpp"
+},
+{
+  "directory": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/build/test/map_test",
+  "command": "C:\\Users\\CKP\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/map_test.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\map_test.dir\\map_test.cpp.obj -c D:\\LearnCpp\\Dev\\CMakeProject\\cmake_planning_demo2\\test\\map_test\\map_test.cpp",
+  "file": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/test/map_test/map_test.cpp"
 }
 ]
