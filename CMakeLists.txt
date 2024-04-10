@@ -12,4 +12,12 @@ set(PROCESS_DIR ${CMAKE_SOURCE_DIR}/src/process)
 set(PNC_MAP_DIR ${CMAKE_SOURCE_DIR}/src/pnc_map)
 set(SHOW_RESULT_DIR ${CMAKE_SOURCE_DIR}/src/show_result)
 
+#第三方库
+list(APPEND 
+CMAKE_MODULE_PATH 
+"C:/Users/CKP/AppData/Local/Programs/eigen-3.4.0/cmake"
+)
+
+find_package(Eigen3 3.4 REQUIRED)
+
 add_subdirectory(src)

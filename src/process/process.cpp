@@ -1,4 +1,5 @@
 #include <iostream>
+#include <Eigen/Dense>
 #include "process.h"
 using std::cout, std::endl;
 
