@@ -1,0 +1,69 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/CKP/AppData/Local/Programs/Microsoft VS Code/mingw64/bin/gcc.exe"
+			},
+			"language" : "C"
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/CKP/AppData/Local/Programs/Microsoft VS Code/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++",
+						"C:/Users/CKP/AppData/Local/Programs/Microsoft VS Code/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32",
+						"C:/Users/CKP/AppData/Local/Programs/Microsoft VS Code/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward",
+						"C:/Users/CKP/AppData/Local/Programs/Microsoft VS Code/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
+						"C:/Users/CKP/AppData/Local/Programs/Microsoft VS Code/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed",
+						"C:/Users/CKP/AppData/Local/Programs/Microsoft VS Code/mingw64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/Users/CKP/AppData/Local/Programs/Microsoft VS Code/mingw64/bin/g++.exe",
+				"version" : "13.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"m",
+				"mm",
+				"mpp",
+				"CPP"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/CKP/AppData/Local/Programs/Microsoft VS Code/mingw64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

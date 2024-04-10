@@ -1,0 +1,161 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/process",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/process",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/pnc_map",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/pnc_map",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "planning"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "planning_main",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "process",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "pnc_map",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "planning_main::@145eef247bfb46b6828c",
+					"jsonFile" : "target-planning_main-Debug-f4704c76f200bd8e7e13.json",
+					"name" : "planning_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pnc_map::@252d5772c77a80ef76b0",
+					"jsonFile" : "target-pnc_map-Debug-5de94b42532403ef0dcc.json",
+					"name" : "pnc_map",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "process::@0c136a57587ef2cf0836",
+					"jsonFile" : "target-process-Debug-6f2f1c58733c17bd5f80.json",
+					"name" : "process",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/build",
+		"source" : "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

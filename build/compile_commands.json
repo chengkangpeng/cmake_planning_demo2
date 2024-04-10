@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/build/src",
+  "command": "C:\\Users\\CKP\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/planning_main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c D:\\LearnCpp\\Dev\\CMakeProject\\cmake_planning_demo2\\src\\planning_main.cpp",
+  "file": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/src/planning_main.cpp"
+},
+{
+  "directory": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/build/src/process",
+  "command": "C:\\Users\\CKP\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE -Dprocess_EXPORTS @CMakeFiles/process.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\process.dir\\process.cpp.obj -c D:\\LearnCpp\\Dev\\CMakeProject\\cmake_planning_demo2\\src\\process\\process.cpp",
+  "file": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/src/process/process.cpp"
+},
+{
+  "directory": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/build/src/pnc_map",
+  "command": "C:\\Users\\CKP\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE -Dpnc_map_EXPORTS  -g -std=gnu++17 -o CMakeFiles\\pnc_map.dir\\pnc_map.cpp.obj -c D:\\LearnCpp\\Dev\\CMakeProject\\cmake_planning_demo2\\src\\pnc_map\\pnc_map.cpp",
+  "file": "D:/LearnCpp/Dev/CMakeProject/cmake_planning_demo2/src/pnc_map/pnc_map.cpp"
+}
+]
